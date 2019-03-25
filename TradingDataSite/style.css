@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    cursor: url(image/);
+    background-color: #e9eef6;
+}
+
+.header-title {
+    width: 100%;
+    float: left;
+    color: #000;
+    padding-top: 20px;
+    padding-left: 50px;
+    position: absolute;
+}
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    color: #5467ff;
+    float: left;
+    text-transform: capitalize;
+}
+
+.input-trade {
+    border: 1px solid #5467ff;
+    height: 20px;
+    width: 20px;
+    float: right;
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.tradingChart {
+    width: 80%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 8%;
+    top: 10%;
+}
+
+.footer {
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
+}
+
+.footer-info {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: .8em;
+    color: #bbb;
+}
+
+.copyright {
+    order: 0;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.social-links {
+    padding-right: 50px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5467ff;
+    border-bottom: .8px solid #5467ff;
+}
+
+
+/* Responsive Starts */
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .tradingChart {
+        left: 5%;
+    }
+}
